@@ -1,0 +1,55 @@
+body {
+  background-color: rgba(49, 166, 182, 0.5);
+
+}
+body:before{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://microdata.es/wp-content/uploads/o-PEOPLE-IN-OFFICE-facebook.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -9;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+	font-size:40px;
+	color:snow;
+	border-radius: 100%;
+	text-shadow: 2px 2px 5px black, 5px 5px 10px rgb(17, 81, 100), 10px 10px 20px rgb(17, 81, 100);
+}
+select {
+     margin: 0 auto;
+     background: transparent;
+     border: none;
+     font-size: 14px;
+     height: 30px;
+     padding: 5px;
+     width: 250px;
+     box-shadow: 2px 2px 5px black, 5px 5px 10px rgb(17, 81, 100), 10px 10px 20px rgb(17, 81, 100);
+     border-radius: 5%;
+     width: 220px;
+     height: 50px;
+  }
+#btn_consultar{
+    position: relative;
+    top:10px;
+    left: 430px;
+     width: 110px;
+     height: 30px;
+    background: transparent;
+    box-shadow: 2px 2px 5px black, 5px 5px 10px rgb(17, 81, 100), 10px 10px 20px rgb(17, 81, 100);
+    border-radius: 5%;
+    left
+}
+#grado{
+    position: absolute;
+    right:0px;
+    left:0px;
+
+}

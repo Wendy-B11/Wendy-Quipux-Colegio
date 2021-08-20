@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/grado.css">
+	<link rel="icon" href="imgs/logomaybe.png" sizes="10x10" type="image/png">
+	<title></title>
+	<script>
+		var btn_consultar;
+		var grado;
+
+		window.onload = init;
+
+		function init(){
+			grado = document.getElementById("grado");
+			btn_consultar = document.getElementById("btn_consultar");
+			btn_consultar.addEventListener("click",cargarReservas);
+		}
+
+		function cargarReservas(){
+			//alert(grado.value);
+			if(grado.value != -1)
+			{
+				localStorage.setItem("grupo",grado.value);
+				location.href = "planevaluaciones.html";
+			}
+			else
+			{
+				alert("Error, debe seleccionar la grupo");
+			}
+		}
+		
+
+		function entrar(){
+			console.log("entre");
+		}
+
+		function salir(){
+			console.log("sali");
+		}
+	</script>
+</head>
+
+	<h2>- Grados -</h2>
+	<select id="grado">
+		<option value="-1"> • Seleccione el grado • </option>
+		<option value="11-1">11-1</option>
+		<option value="11-2">11-2</option>
+		<option value="10-1">10-1</option>
+		<option value="10-2">10-2</option>
+		<option value="9-1">9-1</option>
+		<option value="9-2">9-2</option>
+		<option value="8-3">8-3</option>
+		<option value="8-4">8-4</option>
+	</select>
+<input type="button" id="btn_consultar" value="Consultar">
+</body>
+</html>
