@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: rgba(49, 166, 182, 0.5);
+
+}
+body:before{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://microdata.es/wp-content/uploads/o-PEOPLE-IN-OFFICE-facebook.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -9;
+}
+
+#tittle{
+      margin: 0;
+      position: absolute;
+      width:900px;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Unica One', serif;
+      font-size: 80px;
+      text-align: center;
+      color: #000000;
+}
+#comenzar{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 120px;
+    font-family: 'Vibur', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+#comenzar:hover{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 120px;
+    font-family: 'Vibur', serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(49, 166, 182, 0.5);
+}
+.rectangle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 260px;
+    width: 1000px;
+    border: 7px solid #000000;
+    box-sizing: border-box;
+}
+
+
+
+
+

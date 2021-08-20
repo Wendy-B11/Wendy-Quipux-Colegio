@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+body  {
+  background-image: url(../imgs/banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container h2{
+	font-size: 40px;
+	right: 0px;
+	left: 0px;
+	
+}
+h3{
+	font-size: 40px;
+	text-align: center;
+    font-family: 'Unica One', serif;
+    margin-top: 650px;
+}
+#tittle{
+      margin: 0;
+      position: absolute;
+      width:450px;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Unica One', serif;
+      font-size: 30px;
+      text-align: center;
+      color: #000000;
+}
+#titulo{
+      margin: 0;
+      position: absolute;
+      width:600px;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Unica One', serif;
+      font-size: 80px;
+      text-align: center;
+      color: #1E1D34;
+}
+.rectangle{
+    position: absolute;
+    top: 40px;
+    left:70px;
+    height: 90px;
+    width: 350px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+#menu1{
+    background-color: rgba(49, 166, 182, 0.5);
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+	margin-top: 500px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	width: 1050px;
+	height: 500px; 
+	align-items:center;
+	border-radius:5%;
+}
+#menu2{
+    background-color: rgba(49, 166, 182, 0.5);
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+	margin-top: 500px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	width: 1050px;
+	height: 460px; 
+	align-items:center;
+	border-radius:5%;
+}
+footer{
+	margin-top: 650px;
+	text-align: center;
+}
+.btn{
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+  height:80px;
+  width: 400px;
+  border-radius:5%;
+  cursor:pointer;
+  border-color:  rgba(49, 166, 182, 0.5);
+  color: #1E1D34;
+  box-shadow: 3px 3px 6px white;
+  font-family: 'Unica One', serif;
+  font-size: 25px;
+}
+.btn:hover{
+  margin: 0 auto;
+  background: #1E1D34;
+  color:rgba(49, 166, 182, 0.9);
+  box-shadow: 3px 3px 6px black;
+}
+
+
+.boton{
+  background: rgba(255, 255, 255, 0.34);
+  position: relative;
+  left:100px;
+  height:40px;
+  width: 95px;
+  border-radius:10%;
+  cursor:pointer;
+  border-color:  rgba(49, 166, 182, 0.5);
+  color:  rgba(49, 166, 182, 0.9);
+  box-shadow: 3px 3px 3px black;
+
+}
+
+/****************CERRAR SESION Y PERFIL*********************/
+div.container
+{
+    font-family:'Unica One', serif;
+	text-align: center;
+}
+
+div.container a
+{
+    color: #000;
+    text-decoration: none;
+    font: 20px 'Unica One', serif;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+div.borderYtoX a:before, div.borderYtoX a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: rgba(49, 166, 182, 0.5);
+    transition: all 0.3s;
+}
+
+div.borderYtoX a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderYtoX a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}

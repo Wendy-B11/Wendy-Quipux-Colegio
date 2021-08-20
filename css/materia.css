@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
+body {
+  background-color: rgba(49, 166, 182, 0.5);
+
+}
+body:before{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imgs/office.png); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -9;
+}
+
+
+.container {
+  display: flex;
+  font-family: 'Unica One', serif;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 60vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.button {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #f7f7f7;
+  text-align: center;
+  position: relative;
+  overflow:hidden;
+  transition: .3s;
+  cursor: pointer;
+ 
+}
+.button:hover {
+  background-color: white;
+  color:rgba(49, 166, 182, 0.5);
+  border: 2px solid rgba(49, 166, 182, 0.5);
+ 
+}
+#tittle{
+      margin: 0;
+      position: absolute;
+      width:450px;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Unica One', serif;
+      font-size: 30px;
+      text-align: center;
+      color: #000000;
+}
+.rectangle{
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 20px;
+    height: 90px;
+    width: 350px;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+}
+h2{
+  font-family: 'Unica One', serif;
+  font-size: 50px;
+  text-align:center;
+  margin-top: 450px;
+  color: black;
+}
